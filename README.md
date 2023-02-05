@@ -1,9 +1,9 @@
 # polar-tcx-fix
-Fix TCX files from Polar M400 to accept upload to Garmin Connect
+Fix TCX files from Polar M400 to accept upload to Garmin Connect.
 
 ## Motivation
 
-Uploading TCX files created with my POLAR M400 to Garmin Connect failed with message "Beim Hochladen der Datei ist ein Fehler aufgetreten. Versuchen Sie es erneut".
+Uploading TCX files created with my POLAR M400 to Garmin Connect failed with message "Beim Hochladen der Datei ist ein Fehler aufgetreten. Versuchen Sie es erneut" (uplaod failed error).
 
 The reason are two missing Tags in the `<Author>` section at the end of the file.
 
@@ -51,4 +51,6 @@ There are other solutions, that fix the TCX by removing the `<Author>` and `<Cre
 
 ## Script
 
-The script is simple as can be and it works for me. But maybe it can be an template for your issue. Enjoy!
+The script is as simple as can be but it works for me. Maybe it can be a template for your issue, too.
+
+Enjoy!
